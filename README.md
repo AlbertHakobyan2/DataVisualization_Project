@@ -24,10 +24,6 @@ Through these analyses, the project reveals urban mobility patterns, infrastruct
   - Bike sharing station activity (unlock/lock events)
 - Geospatial coordinates, timestamps, vehicle IDs, and operational attributes
 
-## Key Findings
-- **Bike Analysis**: Peak usage during morning (8 AM) and evening (4-7 PM) commute hours with most trips under 10 minutes
-- **Taxi Analysis**: Speed variations across urban districts with significant differences between peak and off-peak hours
-- **Bus Analysis**: Route 71 shows directional asymmetry in travel times with Shenkun-Yanan Road direction taking longer than the reverse route
 
 ## Repository Contents
 - `Transit_app.R`: R Shiny application for interactive visualization
@@ -53,7 +49,7 @@ The project implements various visualization techniques including:
 - **Python Packages**: pandas, matplotlib, seaborn, numpy, geopandas, folium, transbigdata
 
 ## Interactive Dashboard Features
-The Shiny application offers:
+Our Shiny application offers:
 - Filter controls for time periods, vehicle IDs, and geographic regions
 - Dynamic route visualization with adjustable parameters
 - Travel time estimation based on traffic conditions
